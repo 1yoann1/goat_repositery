@@ -3,5 +3,5 @@ name: date-updating
 on: [push]
   jobs:
     build:
-    runs-on: ubuntu-latest
-      run: date
+      runs-on: ubuntu-latest
+        run: date
