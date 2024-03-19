@@ -1,7 +1,8 @@
 name: date-updating
 
 on: [push]
-  jobs:
-    build:
-      runs-on: ubuntu-latest
-        run: date
+jobs:
+  chocola-test:
+    runs-on: ubuntu-latest
+    steps:
+        - run: date
